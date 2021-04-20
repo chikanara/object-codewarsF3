@@ -1,0 +1,35 @@
+class Dinglemouse{
+
+  constructor( firstName, lastName ){
+    this.firstName = firstName
+    this.lastName = lastName
+  }
+  
+  getFullName(){
+    
+    return (this.firstName+" "+this.lastName).trim()
+  }
+  
+}
+
+//Add property to evry object in array
+questions.map(el => el.usersAnswer = null)
+
+//
+// TODO: solve the barking problem!
+Dog.prototype.bark = () => {
+  return "Woof!"
+}
+
+// 
+var Ball = function(ballType) {
+  // your code goes here
+ return  ballType ? this.ballType = ballType : this.ballType = "regular"
+}
+
+//
+function arithmetic(a, b, operator){
+  //your code here!
+  let opp = operator === "add" ? "+" : operator === "subtract" ? "-" : operator === "multiply" ? "*" : "/"
+  return eval(`${a}${opp}${b}`)
+}
